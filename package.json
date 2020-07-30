@@ -1,6 +1,6 @@
 {
   "name": "openants",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "author": "openants",
   "license": "MIT",
@@ -14,14 +14,14 @@
   "homepage": "https://www.openants.com",
   "repository": {
       "type": "git",
-      "url": "https://github.com/benhailong/openants"
+      "url": "https://github.com/benhailong/openants-for-ants"
     },
 	"keywords": [
 	    "openants",
 	    "elementui"
 	  ],
 	  "bugs": {
-	      "url": "https://github.com/benhailong/openants_for_vue/issues"
+	      "url": "https://github.com/benhailong/openants-for-ants/issues"
 	    },
   "dependencies": {
     "core-js": "^3.6.5",

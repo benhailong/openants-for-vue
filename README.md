@@ -5,111 +5,76 @@
 </p>
 <br>
 
+<br>
+
+<br>
+
+## 介绍
+
+- 基于VUE和Element
+- 自定义小程序功能
+- 商品SKU
+
+<br>
+
+## 截图
+
 <p align="center">
-  <img alt="GitHub release" src="https://img.shields.io/badge/release-v1.0.0-orange.svg?style=for-the-badge"/>
-  <img alt="poi" src="https://img.shields.io/badge/poi-10-green.svg?style=for-the-badge"/>
-  <img alt="Bili" src="https://img.shields.io/badge/bili-3-blue.svg?style=for-the-badge"/>
+  <img width="100%" src="examples/assets/diy.jpg"/>
 </p>
 
 <br>
 
-<p align="center">
-  <b>
-    <a href="https://github.com/waynecz/Holmes">Holmes: Server boilerplate you might need</a>
-    |
-    <a href="https://github.com/waynecz/vue-img-inputer">Place other links here</a>
-  </b>
-</p>
+## 安装
 
-<br>
-
-## Intro
-
-- ( List your features here )
-- Bili ( rollup ) for building component in `es/cjs/umd` ways
-- Poi ( webpack ) for running & building demo
-- Concise `Readme.md` template with document inline
-
-<br>
-
-## Screenshots
-
-<p align="center">
-  <img width="100%" src="examples/assets/screenshot.jpg"/>
-</p>
-
-<br>
-
-## Install and Usage
-
-```bash
-# clone boilerplate
-git clone https://github.com/waynecz/vue-component-boilerplate.git example-name
-
-cd example-name
-
-# delete original git files
-rm -rf .git
-
-# create new one upon link your repo
-git init && git remote add origin {your repo address}
-
-# install dependices
-yarn
+```shell
+npm install openants -S
+or
+yarn add openants
 ```
 
-1.  Replace things in [package.json](./package.json) with your own
-2.  Start writting your component and:
+## 快速开始
+OpenAnts组件是基于Element开发，所以在你安装安装OpenAnts我们将自动帮你安装ElementUI，而无需你自己安装，我们建议elementUI全局引入！
 
-    ```bash
-    # develop
-    npm run dev
+### 全局使用OpenAnts
+main.js中的配置
+```javascript
+import Vue from 'vue';
+import ElementUI from 'element-ui';   // 需要引入 element-ui
+import 'element-ui/lib/theme-chalk/index.css';  // 需要引入 element-ui 的主题文件
+import OpenAnts from 'openants';   // 需要引入 OpenAnts
+import App from './App.vue';
 
-    # build component
-    npm run build
+Vue.use(ElementUI);  // 将 ElementUI 组件注册到VUE
+Vue.use(OpenAnts);  // 将 ElementUI OpenAnts
 
-    # build demo
-    npm run build:demo
-    ```
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});
+```
+### 按需使用OpenAnts
+main.js中的配置
+```javascript
+import Vue from 'vue';
+import ElementUI from 'element-ui';   // 需要引入 element-ui
+import 'element-ui/lib/theme-chalk/index.css';  // 需要引入 element-ui 的主题文件
+import {btn,xxx} from 'openants';   // 需要引入 OpenAnts
+import App from './App.vue';
 
-<br>
+Vue.use(ElementUI);  // 将 ElementUI 组件注册到VUE
+Vue.component(btn.name, btn);
+Vue.component(xxx.name, xxx);
+/* 或写为
+ * Vue.use(btn)
+ * Vue.use(xxx)
+ */
 
-## API
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});
+```
 
-<details><summary><strong>Name a few APIs here</strong></summary>
-<br>
-
-1.  **`value`**: Number  
-    Component's value binded, remember end with two `Tabs` every line
-
-2.  **`on-when`**: Function  
-    **params**: func ( ...param )  
-    hook function when ...
-
-<br/>
-</details>
-
-<details><summary><strong>Much more APIs</strong></summary>
-<br>
-
-1.  **`more`**: Boolean  
-    **default**: `false`  
-    ...
-
-<br/>
-</details>
-
-<details><summary><strong>Categorize them</strong></summary>
-<br>
-
-1.  **`categorize`**: Object  
-    ...
-
-<br/>
-</details>
-
-<br>
-
-## Other things such as Contribute guide / License / Thanks ...
-
-> It's your turn
+## 教程
+http://docs.unpor.com/docs/openants_for_vue/openants_for_vue-1c9f9qf36cnl9

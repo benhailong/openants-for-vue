@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/assets/diy.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/examples/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +26,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/assets" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/assets" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,8 +50,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596121182707</updated>
-      <workItem from="1596121188383" duration="318000" />
+      <workItem from="1596121188383" duration="2764000" />
     </task>
+    <task id="LOCAL-00001" summary="修改gitigno">
+      <created>1596121537480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596121537480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -47,8 +69,18 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="修改gitigno" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改gitigno" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1517" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596122108988">
+      <screen x="-2509" y="23" width="2509" height="1057" />
+    </state>
+    <state x="-1517" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596122108988" />
+    <state x="-1039" y="109" key="CommitChangelistDialog2" timestamp="1596121536707">
+      <screen x="-2509" y="23" width="2509" height="1057" />
+    </state>
+    <state x="-1039" y="109" key="CommitChangelistDialog2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596121536707" />
     <state x="-1293" y="352" width="522" height="280" key="Github.ShareDialog" timestamp="1596121381844">
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
@@ -61,5 +93,9 @@
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
     <state x="-1664" y="175" key="SettingsEditor/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596121326618" />
+    <state x="-1031" y="276" key="Vcs.Push.Dialog.v2" timestamp="1596121541546">
+      <screen x="-2509" y="23" width="2509" height="1057" />
+    </state>
+    <state x="-1031" y="276" key="Vcs.Push.Dialog.v2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596121541546" />
   </component>
 </project>
