@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="" />
+    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596121182707</updated>
-      <workItem from="1596121188383" duration="139000" />
+      <workItem from="1596121188383" duration="318000" />
     </task>
     <servers />
   </component>
@@ -46,6 +49,14 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1293" y="352" width="522" height="280" key="Github.ShareDialog" timestamp="1596121381844">
+      <screen x="-2509" y="23" width="2509" height="1057" />
+    </state>
+    <state x="-1293" y="352" width="522" height="280" key="Github.ShareDialog/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596121381844" />
+    <state x="-820" y="239" key="Github.UntrackedFilesDialog" timestamp="1596121447031">
+      <screen x="-2509" y="23" width="2509" height="1057" />
+    </state>
+    <state x="-820" y="239" key="Github.UntrackedFilesDialog/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596121447031" />
     <state x="-1664" y="175" key="SettingsEditor" timestamp="1596121326618">
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
