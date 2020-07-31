@@ -1,8 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
-import datePicker from "./../packages/index"
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import openants from "./../packages/index"
 
-Vue.use(datePicker)
+// import VueTinymce from "@packy-tang/vue-tinymce"
+
+Vue.use(ElementUI)
+Vue.use(openants)
+// Vue.use(VueTinymce)
 
 Vue.config.productionTip = false
 

@@ -8,23 +8,24 @@
   "main": "lib/openants.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-	"build": "vue-cli-service build",
-	"build-lib": "vue-cli-service build --target lib --name openants --dest lib packages/index.js"
+    "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --name openants --dest lib packages/index.js"
   },
   "homepage": "https://www.openants.com",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/benhailong/openants-for-ants"
-    },
-	"keywords": [
-	    "openants",
-	    "elementui"
-	  ],
-	  "bugs": {
-	      "url": "https://github.com/benhailong/openants-for-ants/issues"
-	    },
+    "type": "git",
+    "url": "https://github.com/benhailong/openants-for-vue"
+  },
+  "keywords": [
+    "openants",
+    "elementui"
+  ],
+  "bugs": {
+    "url": "https://github.com/benhailong/openants-for-vue/issues"
+  },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -37,8 +38,9 @@
     "vue-template-compiler": "^2.6.11"
   },
   "peerDependencies": {
-      "vue": "^2.5.2"
-    },
+    "vue": "^2.5.2",
+    "@packy-tang/vue-tinymce": "^1.1.0"
+  },
   "eslintConfig": {
     "root": true,
     "env": {

@@ -1,9 +1,9 @@
 import datePicker from './datePicker/index.js';
-import ben from './ben/index.js';
+import AntDiy from './diy/index.js';
 
 const components = [
 	datePicker,
-	ben
+    AntDiy
 ]
 
 const install = function (Vue) {
@@ -20,5 +20,5 @@ if(typeof window !== 'undefined' && window.Vue){
 export default {
     install,
     datePicker,
-	ben
+    AntDiy
 }
