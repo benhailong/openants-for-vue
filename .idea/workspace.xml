@@ -2,73 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/diy/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/diy-left.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/diy-middle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/diy-right.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/css/ants.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/css/diy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/banner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/center.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/default_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/default_picture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/audio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/bargain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/blank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/countdown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/coupon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/cube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/fixedsearch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/float.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/goodsRanking.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/groups.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/guess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/hotspot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/listmenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/live.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/member.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/memberIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/notice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/picture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/pictures.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/popadvertising.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/presell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/richtext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/seckill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/storeLise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/storeLocation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/tabbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/icon/wxlive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/assets/member.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/diy/src/common/member.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/diy/src/setting/member-setting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/diy/src/setting/setting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/form/colorPicker/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/form/colorPicker/src/main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/form/switch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/form/switch/src/main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/person_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/person_info_balance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/person_info_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/person_info_coupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/person_info_vip.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/components/HelloWorld.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.common.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ben/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ben/src/main.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/datePicker/src/datePicker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/datePicker/src/datePicker.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/diy/src/diy-left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/diy-left.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/diy/src/diy-middle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/diy-middle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/diy/src/diy-right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/diy-right.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/diy/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/theme-default/css/diy.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme-default/css/diy.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="myVue" />
         <option value="CSS File" />
+        <option value="myVue" />
       </list>
     </option>
   </component>
@@ -96,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/theme-default/images/icon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/diy/src/setting" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -105,15 +61,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/theme-default/images/icon" />
-      <recent name="$PROJECT_DIR$/packages/diy/src" />
-      <recent name="$PROJECT_DIR$/packages/theme-default/images" />
-      <recent name="$PROJECT_DIR$/packages/diy" />
-      <recent name="$PROJECT_DIR$/examples/assets" />
+      <recent name="$PROJECT_DIR$/packages/diy/src/setting" />
+      <recent name="$PROJECT_DIR$/packages/form/colorPicker" />
+      <recent name="$PROJECT_DIR$/packages/form/colorPicker/src" />
+      <recent name="$PROJECT_DIR$/packages/form/switch" />
+      <recent name="$PROJECT_DIR$/packages/form/switch/src" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -126,7 +82,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596121182707</updated>
-      <workItem from="1596121188383" duration="30450000" />
+      <workItem from="1596121188383" duration="32763000" />
+      <workItem from="1596377913081" duration="36370000" />
+      <workItem from="1596554909001" duration="2437000" />
+      <workItem from="1596607560842" duration="35842000" />
+      <workItem from="1596708028429" duration="7302000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitigno">
       <created>1596121537480</created>
@@ -149,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596124136359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DIY左侧OK">
+      <created>1596203723040</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596203723040</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +128,8 @@
     </ignored-roots>
     <MESSAGE value="修改gitigno" />
     <MESSAGE value="修改说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改说明" />
+    <MESSAGE value="DIY左侧OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="DIY左侧OK" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1517" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596167250506">
@@ -169,10 +137,14 @@
     </state>
     <state x="-1517" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596122108988" />
     <state x="-1517" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596167250506" />
-    <state x="-1039" y="109" key="CommitChangelistDialog2" timestamp="1596124135822">
+    <state x="-1039" y="109" key="CommitChangelistDialog2" timestamp="1596203718820">
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
-    <state x="-1039" y="109" key="CommitChangelistDialog2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596124135822" />
+    <state x="-1039" y="109" key="CommitChangelistDialog2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596203718813" />
+    <state x="-1913" y="281" key="EditFileWatcherDialog" timestamp="1596470878723">
+      <screen x="-2509" y="23" width="2509" height="1057" />
+    </state>
+    <state x="-1913" y="281" key="EditFileWatcherDialog/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596470878723" />
     <state x="-1293" y="352" width="522" height="280" key="Github.ShareDialog" timestamp="1596121381844">
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
@@ -181,17 +153,21 @@
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
     <state x="-820" y="239" key="Github.UntrackedFilesDialog/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596121447031" />
-    <state x="-1664" y="175" key="SettingsEditor" timestamp="1596121326618">
+    <state x="-2069" y="135" key="SettingsEditor" timestamp="1596470880864">
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
-    <state x="-1664" y="175" key="SettingsEditor/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596121326618" />
-    <state x="-1031" y="276" key="Vcs.Push.Dialog.v2" timestamp="1596124139172">
+    <state x="-2069" y="135" key="SettingsEditor/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596470880864" />
+    <state x="-1585" y="226" key="Vcs.Push.Dialog.v2" timestamp="1596203726825">
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
-    <state x="-1031" y="276" key="Vcs.Push.Dialog.v2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596124139172" />
-    <state x="-2021" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1596181997504">
+    <state x="-1585" y="226" key="Vcs.Push.Dialog.v2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596203726825" />
+    <state x="-1974" y="486" width="586" height="490" key="find.popup" timestamp="1596711301981">
       <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
-    <state x="-2021" y="348" width="670" height="676" key="search.everywhere.popup/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596181997504" />
+    <state x="-1974" y="486" width="586" height="490" key="find.popup/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596711301981" />
+    <state x="-2021" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1596690194921">
+      <screen x="-2509" y="23" width="2509" height="1417" />
+    </state>
+    <state x="-2021" y="348" width="670" height="676" key="search.everywhere.popup/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596690194921" />
   </component>
 </project>

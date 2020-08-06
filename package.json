@@ -1,6 +1,6 @@
 {
   "name": "openants",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "author": "openants",
   "license": "MIT",
@@ -47,8 +47,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "plugin:vue/essential"
     ],
     "parserOptions": {
       "parser": "babel-eslint"

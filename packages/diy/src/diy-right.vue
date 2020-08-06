@@ -1,87 +1,57 @@
 <template>
-    <div class="diy-right" style="height: 100%">
-        <el-scrollbar>
-            <div style="height: 100%">
-                阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-                111<br>
-            </div>
-        </el-scrollbar>
-    </div>
+  <div class="diy-right" style="height: 100%">
+    <el-scrollbar>
+      <div style="height: 100%">
+        <template v-if="changeData == undefined || changeData.length <= 0">
+          <setting></setting>
+        </template>
+        <template v-else>
+          <mamberSetting
+            v-if="changeData.type == 'member'"
+            :ico="ico"
+            :data.sync="changeData.data"
+            @antChange="antChange"
+          ></mamberSetting>
+        </template>
+      </div>
+    </el-scrollbar>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "diy-right",
-        props: {},
-        data() {
-            return {}
-        },
-        components: {
-            // 第三方组件实例化
-        },
-        computed: {},
-        methods: {
-            // 方法
-        },
-        mounted() {
-
-        }
+import mamberSetting from "./setting/member-setting";
+import setting from "./setting/setting";
+export default {
+  name: "diyRight",
+  props: {
+    changeData: { type: Object },
+    ico: {
+      type: String
     }
+  },
+  data() {
+    return {};
+  },
+  components: {
+    // 第三方组件实例化
+    mamberSetting,
+    setting
+  },
+  computed: {},
+  methods: {
+    // 方法
+    antChange(e) {
+      this.changeData.data = e.retdata;
+      this.$emit("antChange", {
+        retdata: this.changeData
+      });
+    }
+  },
+  mounted() {}
+};
 </script>
 
 <style scoped>
-    @import "../../theme-default/css/ants.css";
-    @import "../../theme-default/css/diy.css";
+@import "../../theme-default/css/ants.css";
+@import "../../theme-default/css/diy.css";
 </style>
