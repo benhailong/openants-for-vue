@@ -28,7 +28,12 @@ export default {
       // 文本
       type: Array
     },
-    sharing: {}, // 分享的参数
+    sharing: {
+      type: Object
+    }, // 分享的参数
+    urlList: {
+      type: Array
+    },
     pageData: {
       // 页面的配置数据
       type: Array

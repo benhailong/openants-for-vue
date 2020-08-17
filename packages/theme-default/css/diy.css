@@ -37,6 +37,11 @@
   height: 0px;
   background-color: rgba(0, 0, 0, 0.1);
 }
+.no-huakuai::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .el-scrollbar__wrap {
   overflow-x: hidden;
 }
@@ -326,4 +331,113 @@
   font-weight: 700;
   background-color: #ffffff;
   color: #333;
+}
+.diy-order-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.diy-order-title-left {
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+}
+.diy-order-title-right {
+  font-size: 12px;
+  color: #9c9ea9;
+  height: 20px;
+  line-height: 20px;
+}
+.diy-order-btn-list {
+  display: flex;
+  justify-content: space-around;
+}
+.diy-order-btn-box {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.diy-order-btn-list-image {
+  width: 40px;
+}
+.diy-order-btn-list-title {
+  font-size: 12px;
+}
+.itu-z {
+  background-color: #f6f7f9;
+  border: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.itu-box {
+  display: flex;
+  font-size: 12px;
+  color: #666666;
+  margin-top: 10px;
+}
+.itu-box-left {
+  width: 50px;
+  text-align: right;
+  margin-right: 10px;
+}
+.itu-box-image-title {
+  height: 50px;
+  line-height: 50px;
+}
+.itu-box-image-input {
+  height: 28px;
+  line-height: 28px;
+}
+.itu-box-url-box {
+  height: 28px;
+  line-height: 28px;
+  background-color: #e8effc;
+  width: auto;
+  color: #333333;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.itu-box-url-url-ico {
+  margin-right: 10px;
+}
+.el-dialog {
+  border-radius: 6px;
+  width: 792px;
+  height: 70vh;
+  display: flex;
+  flex-flow: column;
+}
+.el-dialog__header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #f7f7f7;
+  text-align: left;
+}
+.el-dialog__headerbtn {
+  top: 14px;
+}
+.el-dialog__title {
+  font-size: 14px;
+  color: #333;
+}
+.el-dialog__body {
+  padding: 10px 20px;
+  flex: 1;
+}
+.el-dialog__footer {
+  padding: 10px 20px;
+  border-top: 1px solid #f7f7f7;
+}
+.dialog-content {
+  display: flex;
+  height: 100%;
+}
+.dialog-content-left {
+  width: 159px;
+  border-right: 1px solid #f7f7f7;
+  height: 100%;
+  text-align: left;
+}
+.dialog-content-right {
+  /*width: 600px;*/
+  flex: 1;
+  margin-left: 10px;
 }

@@ -1,1 +1,48 @@
-
+.ant-flex {
+  display: flex;
+}
+.dialog-left-list {
+  font-size: 12px;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+}
+.dialog-left-list-one {
+  padding-left: 15px;
+}
+.dialog-left-list-ones {
+  padding-left: 15px;
+  margin-right: 10px;
+  color: #fb6638;
+  background: #fff3ef;
+  border-radius: 5px;
+}
+.dialog-left-list-two {
+  padding-left: 25px;
+}
+.dialog-left-list-twos {
+  padding-left: 25px;
+  margin-right: 10px;
+  color: #fb6638;
+  background: #fff3ef;
+  border-radius: 5px;
+}
+.dialog-content-right-alert {
+  margin-bottom: 10px;
+}
+.ant-dialog-btn {
+  height: 32px;
+  font-size: 12px;
+  line-height: 32px;
+  padding: 0 20px;
+  margin-right: 20px;
+  border: 1px #e5e5e5 solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.has-gutter tr {
+  background: #f7f7f7;
+}
+.el-table--border {
+  border-radius: 4px;
+}

@@ -3,49 +3,59 @@
     <div class="diy-right-title">
       <div
         class="diy-right-title-img"
-        :style="{ background: 'url(' + getico() + ') no-repeat -12px -2px' }"
+        :style="{ background: 'url(' + getico() + ') no-repeat -12px -4px' }"
       ></div>
-      <div>会员信息</div>
+      <div>订单图标组</div>
     </div>
     <div class="diy-right-box">
-      <div class="diy-right-box-title">选择背景色</div>
+      <div class="diy-right-box-title">颜色选择</div>
       <AntFormColorPicker
-        title="左侧"
-        :color.sync="data.bgColorLeft"
-        @antChange="colorleft"
+        title="文字"
+        :color.sync="antdata.fontColor"
+        @antChange="fontColor"
       ></AntFormColorPicker>
-      <AntFormColorPicker
-        title="右侧"
-        :color.sync="data.bgColorRight"
-        @antChange="colorright"
-      ></AntFormColorPicker>
+    </div>
+    <div class="diy-right-box">
+      <div class="diy-right-box-title">图标</div>
+      <div style="padding: 10px">
+        <template v-for="(ant, index) in antdata.list">
+          <ImageTitleUrl
+            :img.sync="ant.image"
+            :key="String(index)"
+            :title.sync="ant.title"
+            :url.sync="ant.url"
+          ></ImageTitleUrl>
+        </template>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import member from "../../../theme-default/images/icon/member.png";
+import order from "../../../theme-default/images/icon/order.png";
 import AntFormColorPicker from "./../../../form/colorPicker/src/main";
+import ImageTitleUrl from "./../util/image-title-url";
 export default {
-  name: "memberSetting",
+  name: "orderSetting",
   props: {
     ico: {
       // 文本
       type: String
     },
-    data: {
+    antdata: {
       // 文本
       type: Object
     }
   },
   data() {
     return {
-      img: member
+      img: order
     };
   },
   components: {
     // 第三方组件实例化
-    AntFormColorPicker
+    AntFormColorPicker,
+    ImageTitleUrl
   },
   computed: {},
   methods: {
@@ -55,19 +65,8 @@ export default {
       // return this.img;
       return this.ico == "" || this.ico == undefined ? this.img : this.ico;
     },
-    colorleft(e) {
-      console.log("返回的颜色左边", e);
-      this.data.bgColorLeft = e.color;
-      this.$emit("antChange", {
-        retdata: this.data
-      });
-    },
-    colorright(e) {
-      console.log("返回的颜色右边", e);
-      this.data.bgColorRight = e.color;
-      this.$emit("antChange", {
-        retdata: this.data
-      });
+    fontColor(e) {
+      this.data.fontColor = e.color;
     }
   },
   mounted() {}

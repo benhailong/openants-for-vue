@@ -12,6 +12,12 @@
             :data.sync="changeData.data"
             @antChange="antChange"
           ></mamberSetting>
+          <orderSetting
+            v-if="changeData.type == 'order'"
+            :ico="ico"
+            :antdata.sync="changeData.data"
+            @antChange="antChange"
+          ></orderSetting>
         </template>
       </div>
     </el-scrollbar>
@@ -20,6 +26,7 @@
 
 <script>
 import mamberSetting from "./setting/member-setting";
+import orderSetting from "./setting/order-setting";
 import setting from "./setting/setting";
 export default {
   name: "diyRight",
@@ -35,7 +42,8 @@ export default {
   components: {
     // 第三方组件实例化
     mamberSetting,
-    setting
+    setting,
+    orderSetting
   },
   computed: {},
   methods: {

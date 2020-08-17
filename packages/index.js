@@ -2,8 +2,15 @@ import datePicker from "./datePicker/index.js";
 import AntDiy from "./diy/index.js";
 import AntFormSwitch from "./form/switch/index.js";
 import AntFormColorPicker from "./form/colorPicker/index.js";
+import AntUrlDialog from "./dialog/index.js";
 
-const components = [datePicker, AntDiy, AntFormSwitch, AntFormColorPicker];
+const components = [
+  datePicker,
+  AntDiy,
+  AntFormSwitch,
+  AntFormColorPicker,
+  AntUrlDialog
+];
 
 const install = function(Vue) {
   if (install.installed) return;
@@ -19,5 +26,6 @@ export default {
   datePicker,
   AntDiy,
   AntFormSwitch,
-  AntFormColorPicker
+  AntFormColorPicker,
+  AntUrlDialog
 };

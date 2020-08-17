@@ -1,6 +1,19 @@
 <template>
   <div class="hello">
-    <AntDiy :leftMenu="leftMenu" :pageData.sync="pageData"></AntDiy>
+    <AntDiy
+      :leftMenu="leftMenu"
+      :pageData.sync="pageData"
+      :urlList="urlList"
+      :sharing="sharing"
+    ></AntDiy>
+    <AntUrlDialog
+      :dialog-visible="showDialog"
+      @dialog-cancel="showDialog = false"
+      @antClick="antClick"
+      :ant-data="urlData"
+      atitle="弹窗标题"
+    ></AntUrlDialog>
+    <div class="itu-box-url-box" @click="showDialog = true">点击</div>
   </div>
 </template>
 
@@ -13,6 +26,54 @@ export default {
   },
   data() {
     return {
+      showDialog: false, // 弹窗控制
+      urlData: [
+        {
+          level: 2, // 级别，1代表只有一级分类，2代表有2级分类
+          title: "商城页面",
+          childList: [
+            {
+              title: "商城链接",
+              type: "url", // 类型
+              info: "注：app暂不支持的链接，在App端点击时，不跳转页面",
+              childList: [
+                {
+                  title: "商城首页",
+                  url: "home/home"
+                },
+                {
+                  title: "分类",
+                  url: "home/list"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          level: 1, // 级别，1代表只有一级分类，2代表有2级分类
+          title: "商品",
+          type: "list", // 类型   Url：普通链接显示按钮类型，list：显示列表类型，call：拨打电话（childList为空），
+          info: "注：这里是商品的连接测试",
+          search: {
+            url:
+              "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Apitest/getall", // 搜索链接，系统会自己通过发送POST请求，POST请求会添加parame中的参数，同时系统自动会添加几个参数，search：搜索关键词，可能为空，pageSize：每页显示条数15条，currentPage：当前页面
+            parame: {
+              token: "123456"
+            }
+          }
+        },
+        {
+          level: 1, // 级别，1代表只有一级分类，2代表有2级分类
+          title: "拨打电话",
+          type: "call", // 类型   Url：普通链接显示按钮类型，list：显示列表类型，call：拨打电话（childList为空），
+          info: "添加电话号码链接"
+        },
+        {
+          level: 1, // 级别，1代表只有一级分类，2代表有2级分类
+          title: "拨打电话",
+          type: "call" // 类型   Url：普通链接显示按钮类型，list：显示列表类型，call：拨打电话（childList为空），
+        }
+      ],
       leftMenu: [
         {
           title: "基础组件",
@@ -220,8 +281,27 @@ export default {
           ]
         }
       ],
-      pageData: []
+      pageData: [],
+      urlList: [
+        {
+          title: "",
+          url: ""
+        }
+      ],
+      sharing: {
+        type: 0, // 背景类型（0：系统设置，1：自定义）
+        title: "", // 分享标题
+        appimg: "", // 公众号img
+        wxapptype: "", // 小程序分享类型（0：页面截图，1：自定义图片）
+        wxappimg: "", // 小程序分享图片
+        info: "" // 分享时候的简介
+      } //分享数据
     };
+  },
+  methods: {
+    antClick(e) {
+      console.log("弹窗返回值：", e);
+    }
   }
 };
 </script>

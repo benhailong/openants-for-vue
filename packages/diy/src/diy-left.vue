@@ -17,7 +17,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + audio + ')'
+                      : 'url(' + antImages.audio + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -29,7 +29,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + banner + ')'
+                      : 'url(' + antImages.banner + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -41,7 +41,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + bargain + ')'
+                      : 'url(' + antImages.bargain + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -53,7 +53,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + blank + ')'
+                      : 'url(' + antImages.blank + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -65,7 +65,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + countdown + ')'
+                      : 'url(' + antImages.countdown + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -77,7 +77,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + coupon + ')'
+                      : 'url(' + antImages.coupon + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -89,7 +89,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + cube + ')'
+                      : 'url(' + antImages.cube + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -101,7 +101,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + fixedsearch + ')'
+                      : 'url(' + antImages.fixedsearch + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -113,7 +113,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + float + ')'
+                      : 'url(' + antImages.float + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -125,7 +125,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + form + ')'
+                      : 'url(' + antImages.form + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -137,7 +137,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + goods + ')'
+                      : 'url(' + antImages.goods + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -149,7 +149,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + goodsRanking + ')'
+                      : 'url(' + antImages.goodsRanking + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -161,7 +161,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + groups + ')'
+                      : 'url(' + antImages.groups + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -173,7 +173,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + guess + ')'
+                      : 'url(' + antImages.guess + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -185,7 +185,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + hotspot + ')'
+                      : 'url(' + antImages.hotspot + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -197,7 +197,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + line + ')'
+                      : 'url(' + antImages.line + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -209,7 +209,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + listmenu + ')'
+                      : 'url(' + antImages.listmenu + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -221,7 +221,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + live + ')'
+                      : 'url(' + antImages.live + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -233,7 +233,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + menu + ')'
+                      : 'url(' + antImages.menu + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -245,7 +245,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + notice + ')'
+                      : 'url(' + antImages.notice + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -257,7 +257,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + picture + ')'
+                      : 'url(' + antImages.picture + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -269,7 +269,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + pictures + ')'
+                      : 'url(' + antImages.pictures + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -281,7 +281,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + popadvertising + ')'
+                      : 'url(' + antImages.popadvertising + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -293,7 +293,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + presell + ')'
+                      : 'url(' + antImages.presell + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -305,7 +305,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + richtext + ')'
+                      : 'url(' + antImages.richtext + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -317,7 +317,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + search + ')'
+                      : 'url(' + antImages.search + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -329,7 +329,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + seckill + ')'
+                      : 'url(' + antImages.seckill + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -341,7 +341,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + storeLise + ')'
+                      : 'url(' + antImages.storeLise + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -353,7 +353,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + storeLocation + ')'
+                      : 'url(' + antImages.storeLocation + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -365,7 +365,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + tabbar + ')'
+                      : 'url(' + antImages.tabbar + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -377,7 +377,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + title + ')'
+                      : 'url(' + antImages.title + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -389,7 +389,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + video + ')'
+                      : 'url(' + antImages.video + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -401,7 +401,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + wxlive + ')'
+                      : 'url(' + antImages.wxlive + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -409,12 +409,12 @@
                 </div>
                 <div
                   class="zj"
-                  @click="change(b.type)"
+                  @click="antChange(b.type)"
                   v-else-if="b.type == 'member'"
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + member + ')'
+                      : 'url(' + antImages.member + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -426,7 +426,7 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + memberIcon + ')'
+                      : 'url(' + antImages.memberIcon + ')'
                   }"
                   :key="String(index2)"
                 >
@@ -438,9 +438,10 @@
                   :style="{
                     backgroundImage: imgIsNotNull(b.img)
                       ? 'url(' + b.img + ')'
-                      : 'url(' + order + ')'
+                      : 'url(' + antImages.order + ')'
                   }"
                   :key="String(index2)"
+                  @click="antChange(b.type)"
                 >
                   {{ b.title }}
                 </div>
@@ -454,42 +455,8 @@
 </template>
 
 <script>
-import audio from "../../theme-default/images/icon/audio.png";
-import banner from "../../theme-default/images/icon/banner.png";
-import bargain from "../../theme-default/images/icon/bargain.png";
-import blank from "../../theme-default/images/icon/blank.png";
-import countdown from "../../theme-default/images/icon/countdown.png";
-import coupon from "../../theme-default/images/icon/coupon.png";
-import cube from "../../theme-default/images/icon/cube.png";
-import fixedsearch from "../../theme-default/images/icon/fixedsearch.png";
-import float from "../../theme-default/images/icon/float.png";
-import form from "../../theme-default/images/icon/form.png";
-import goods from "../../theme-default/images/icon/goods.png";
-import goodsRanking from "../../theme-default/images/icon/goodsRanking.png";
-import groups from "../../theme-default/images/icon/groups.png";
-import guess from "../../theme-default/images/icon/guess.png";
-import hotspot from "../../theme-default/images/icon/hotspot.png";
-import line from "../../theme-default/images/icon/line.png";
-import listmenu from "../../theme-default/images/icon/listmenu.png";
-import live from "../../theme-default/images/icon/live.png";
-import menu from "../../theme-default/images/icon/menu.png";
-import notice from "../../theme-default/images/icon/notice.png";
-import picture from "../../theme-default/images/icon/picture.png";
-import pictures from "../../theme-default/images/icon/pictures.png";
-import popadvertising from "../../theme-default/images/icon/popadvertising.png";
-import presell from "../../theme-default/images/icon/presell.png";
-import richtext from "../../theme-default/images/icon/richtext.png";
-import search from "../../theme-default/images/icon/search.png";
-import seckill from "../../theme-default/images/icon/seckill.png";
-import storeLise from "../../theme-default/images/icon/storeLise.png";
-import storeLocation from "../../theme-default/images/icon/storeLocation.png";
-import tabbar from "../../theme-default/images/icon/tabbar.png";
-import title from "../../theme-default/images/icon/title.png";
-import video from "../../theme-default/images/icon/video.png";
-import wxlive from "../../theme-default/images/icon/wxlive.png";
-import member from "../../theme-default/images/icon/member.png";
-import memberIcon from "../../theme-default/images/icon/memberIcon.png";
-import order from "../../theme-default/images/icon/order.png";
+import antImages from "./js/import-img";
+import antJsons from "./js/import-json";
 export default {
   name: "diy-left",
   props: {
@@ -500,42 +467,7 @@ export default {
   data() {
     return {
       activeNames: ["0"],
-      member: member,
-      memberIcon: memberIcon,
-      order: order,
-      audio: audio,
-      banner: banner,
-      bargain: bargain,
-      blank: blank,
-      countdown: countdown,
-      coupon: coupon,
-      cube: cube,
-      fixedsearch: fixedsearch,
-      float: float,
-      form: form,
-      goods: goods,
-      goodsRanking: goodsRanking,
-      groups: groups,
-      guess: guess,
-      hotspot: hotspot,
-      line: line,
-      listmenu: listmenu,
-      live: live,
-      menu: menu,
-      notice: notice,
-      picture: picture,
-      pictures: pictures,
-      popadvertising: popadvertising,
-      presell: presell,
-      richtext: richtext,
-      search: search,
-      seckill: seckill,
-      storeLise: storeLise,
-      storeLocation: storeLocation,
-      tabbar: tabbar,
-      title: title,
-      video: video,
-      wxlive: wxlive
+      antImages: antImages
     };
   },
   components: {
@@ -551,17 +483,15 @@ export default {
     imgIsNotNull(img) {
       return img != "";
     },
-    change(e) {
+    antChange(e) {
+      var data = { type: e, isShow: true, data: {} };
       if (e == "member") {
-        this.$emit("antClick", {
-          type: e,
-          isShow: true,
-          data: {
-            bgColorLeft: "#fd463e",
-            bgColorRight: "#ff3883"
-          }
-        });
+        data.data = antJsons.member;
+      } else if (e == "order") {
+        data.data = antJsons.order;
       }
+
+      this.$emit("antClick", data);
     }
   },
   mounted() {}

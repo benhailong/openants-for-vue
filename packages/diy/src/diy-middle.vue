@@ -6,7 +6,6 @@
           <div class="diy-phone-body">
             <template v-for="(pd, index) in pagedata">
               <div
-                v-if="pd.type == 'member'"
                 :class="[
                   'diy-div',
                   antNamber == index ? 'diy-active' : '',
@@ -36,12 +35,18 @@
                   </el-popover>
                 </div>
                 <member
+                  v-if="pd.type == 'member'"
                   :bgColorOne.sync="pd.data.bgColorLeft"
                   :bgColorTwo.sync="pd.data.bgColorRight"
                   :showDelBtn="antNamber == index"
                   :index.sync="index"
                   @del="del"
                 ></member>
+                <order
+                  v-else-if="pd.type == 'order'"
+                  :antdata.sync="pd.data"
+                  :index.sync="index"
+                ></order>
               </div>
             </template>
           </div>
@@ -135,6 +140,7 @@
 
 <script>
 import member from "./common/member";
+import order from "./common/order";
 export default {
   name: "diymiddle",
   props: {
@@ -152,7 +158,8 @@ export default {
   },
   components: {
     // 第三方组件实例化
-    member
+    member,
+    order
   },
   computed: {},
   methods: {

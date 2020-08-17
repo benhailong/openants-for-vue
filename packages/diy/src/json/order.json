@@ -1,0 +1,35 @@
+{
+  "list": [
+    {
+      "image": "",
+      "title": "待付款",
+      "url": ""
+    },
+    {
+      "image": "",
+      "title": "待发货",
+      "url": ""
+    },
+    {
+      "image": "",
+      "title": "待收货",
+      "url": ""
+    },
+    {
+      "image": "",
+      "title": "待评价",
+      "url": ""
+    },
+    {
+      "image": "",
+      "title": "退换货",
+      "url": ""
+    }
+  ],
+  "antbg": {
+    "type": 0,
+    "bgurl": ""
+  },
+  "allOrderUrl": "",
+  "fontColor": "#aeaeae"
+}
