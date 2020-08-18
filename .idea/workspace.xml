@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/dialog/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/dialog/src/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/common/order.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/js/import-img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/js/import-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/json/member.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/json/order.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/setting/order-setting.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/diy/src/util/image-title-url.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.common.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/datePicker/src/datePicker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/datePicker/src/datePicker.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/diy/src/diy-left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/diy-left.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/diy/src/diy-middle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/diy-middle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/diy/src/diy-right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/diy-right.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/diy/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/diy/src/setting/member-setting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/setting/member-setting.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/theme-default/css/ants.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme-default/css/ants.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/theme-default/css/diy.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme-default/css/diy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +80,9 @@
       <workItem from="1597220552950" duration="167000" />
       <workItem from="1597366357818" duration="11561000" />
       <workItem from="1597494337178" duration="20268000" />
-      <workItem from="1597584671866" duration="15998000" />
+      <workItem from="1597584671866" duration="16982000" />
+      <workItem from="1597669375918" duration="150000" />
+      <workItem from="1597741102272" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitigno">
       <created>1596121537480</created>
@@ -148,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596724672831</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1、新增弹窗的连接选择器">
+      <created>1597656240994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597656240994</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +140,8 @@
     <MESSAGE value="修改说明" />
     <MESSAGE value="DIY左侧OK" />
     <MESSAGE value="完成会员信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成会员信息" />
+    <MESSAGE value="1、新增弹窗的连接选择器" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、新增弹窗的连接选择器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1985" y="237" key="#Inspections" timestamp="1596854400705">
@@ -182,10 +161,11 @@
     </state>
     <state x="-1517" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596122108988" />
     <state x="-1517" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596167250506" />
-    <state x="-1039" y="109" key="CommitChangelistDialog2" timestamp="1596724672374">
-      <screen x="-2509" y="23" width="2509" height="1057" />
+    <state x="-1494" y="145" key="CommitChangelistDialog2" timestamp="1597656238072">
+      <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
     <state x="-1039" y="109" key="CommitChangelistDialog2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596724672374" />
+    <state x="-1494" y="145" key="CommitChangelistDialog2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597656238072" />
     <state x="-1913" y="281" key="EditFileWatcherDialog" timestamp="1596470878723">
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
@@ -218,10 +198,11 @@
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
     <state x="-2069" y="135" key="SettingsEditor/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596470880864" />
-    <state x="-1585" y="226" key="Vcs.Push.Dialog.v2" timestamp="1596724675156">
-      <screen x="-2509" y="23" width="2509" height="1057" />
+    <state x="-1585" y="295" key="Vcs.Push.Dialog.v2" timestamp="1597656255591">
+      <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
     <state x="-1585" y="226" key="Vcs.Push.Dialog.v2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596724675156" />
+    <state x="-1585" y="295" key="Vcs.Push.Dialog.v2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597656255591" />
     <state x="-2409" y="123" width="2309" height="1217" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596761658038">
       <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
