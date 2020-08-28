@@ -28,9 +28,7 @@
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
     "vue": "^2.6.11",
-    "vue-axios": "^2.1.5",
-    "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2"
+    "vue-axios": "^2.1.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",

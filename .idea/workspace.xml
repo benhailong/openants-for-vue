@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,9 @@
       <workItem from="1597494337178" duration="20268000" />
       <workItem from="1597584671866" duration="16982000" />
       <workItem from="1597669375918" duration="150000" />
-      <workItem from="1597741102272" duration="68000" />
+      <workItem from="1597741102272" duration="103000" />
+      <workItem from="1597826451000" duration="702000" />
+      <workItem from="1598453401282" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitigno">
       <created>1596121537480</created>
@@ -126,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597656240994</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1、新增弹窗的连接选择器">
+      <created>1597741181948</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597741181948</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,11 +171,11 @@
     </state>
     <state x="-1517" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596122108988" />
     <state x="-1517" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596167250506" />
-    <state x="-1494" y="145" key="CommitChangelistDialog2" timestamp="1597656238072">
+    <state x="-1494" y="145" key="CommitChangelistDialog2" timestamp="1597741181507">
       <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
     <state x="-1039" y="109" key="CommitChangelistDialog2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596724672374" />
-    <state x="-1494" y="145" key="CommitChangelistDialog2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597656238072" />
+    <state x="-1494" y="145" key="CommitChangelistDialog2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597741181507" />
     <state x="-1913" y="281" key="EditFileWatcherDialog" timestamp="1596470878723">
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
@@ -198,11 +208,11 @@
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
     <state x="-2069" y="135" key="SettingsEditor/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596470880864" />
-    <state x="-1585" y="295" key="Vcs.Push.Dialog.v2" timestamp="1597656255591">
+    <state x="-1585" y="295" key="Vcs.Push.Dialog.v2" timestamp="1597741190890">
       <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
     <state x="-1585" y="226" key="Vcs.Push.Dialog.v2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596724675156" />
-    <state x="-1585" y="295" key="Vcs.Push.Dialog.v2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597656255591" />
+    <state x="-1585" y="295" key="Vcs.Push.Dialog.v2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597741190890" />
     <state x="-2409" y="123" width="2309" height="1217" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596761658038">
       <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
