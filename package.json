@@ -24,11 +24,16 @@
     "url": "https://github.com/benhailong/openants-for-vue/issues"
   },
   "dependencies": {
+    "@tinymce/tinymce-vue": "^3.2.3",
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
+    "tinymce": "^5.4.2",
     "vue": "^2.6.11",
-    "vue-axios": "^2.1.5"
+    "vue-axios": "^2.1.5",
+    "vue-json-editor": "^1.4.2",
+    "vue-router": "^3.4.4",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",

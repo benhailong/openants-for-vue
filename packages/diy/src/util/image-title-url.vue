@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import urlDialog from "../../../dialog/src/main";
+import urlDialog from "../../../dialog/url/src/main";
 export default {
   name: "ImageTitleUrl",
   props: {

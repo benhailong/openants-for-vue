@@ -2,7 +2,7 @@
   <div>
     <!--    <button style="background-color: #ff0000;color: #ffffff">{{ text }}</button>-->
     <!--    <el-button type="success">{{ text }}</el-button>-->
-    <!--    <el-image :src="banner"></el-image>-->
+    <!--    <el-antimage :src="banner"></el-antimage>-->
     <!--    <div-->
     <!--      class="background-42b983"-->
     <!--      :style="{-->

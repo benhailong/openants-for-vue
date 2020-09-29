@@ -14,6 +14,9 @@
       atitle="弹窗标题"
     ></AntUrlDialog>
     <div class="itu-box-url-box" @click="showDialog = true">点击</div>
+    <div>富文本编辑器</div>
+    {{ msg }}
+    <ant-editor-tinymce ref="editor" v-model="msg"> </ant-editor-tinymce>
   </div>
 </template>
 
@@ -21,11 +24,11 @@
 import member from "../assets/member.png";
 export default {
   name: "HelloWorld",
-  props: {
-    msg: String
-  },
   data() {
     return {
+      // 富文本
+      msg: "请输入内容",
+      // 富文本
       showDialog: false, // 弹窗控制
       urlData: [
         {

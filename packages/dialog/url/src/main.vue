@@ -299,6 +299,7 @@ export default {
       }
 
       this.$emit("antClick", this.retJson);
+      this.$emit("dialog-cancel");
     }
   },
   mounted() {
@@ -312,6 +313,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../theme-default/css/ants.css";
-@import "../../theme-default/css/diy.css";
+@import "../../../theme-default/css/ants.css";
+@import "../../../theme-default/css/diy.css";
 </style>

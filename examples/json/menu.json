@@ -1,0 +1,16 @@
+{
+  "menu": [
+    {
+      "lable": "首页",
+      "icon": "el-icon-s-home",
+      "path": "/",
+      "name": "home"
+    },
+    {
+      "lable": "弹窗",
+      "icon": "el-icon-files",
+      "path": "/DiaLog/Index",
+      "name": "DiaLog"
+    }
+  ]
+}

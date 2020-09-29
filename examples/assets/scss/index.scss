@@ -1,0 +1,43 @@
+.logo {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.left-btn {
+  font-size: 14px;
+  text-align: left;
+  margin: 10px 20px;
+  line-height: 40px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.left-btn-active {
+  background-color: #fff0eb;
+  color: #ff6900;
+  border-radius: 10px;
+}
+.main-top {
+  background-color: #fff0eb;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+.dia-inpot {
+  display: flex;
+  margin-bottom: 20px;
+  .dia-inpot-title {
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666;
+  }
+  input {
+    width: 20vw;
+    min-width: 200px;
+  }
+}

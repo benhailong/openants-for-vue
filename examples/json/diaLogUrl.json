@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "level": 2,
+      "title": "商城页面",
+      "childList": [
+        {
+          "title": "商城链接",
+          "type": "url",
+          "info": "注：app暂不支持的链接，在App端点击时，不跳转页面",
+          "childList": [
+            {
+              "title": "商城首页",
+              "url": "home/home"
+            },
+            {
+              "title": "分类",
+              "url": "home/list"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "title": "商品",
+      "type": "list",
+      "info": "注：这里是商品的连接测试",
+      "search": {
+        "url": "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Apitest/getall",
+        "parame": {
+          "token": "123456"
+        }
+      }
+    },
+    {
+      "level": 1,
+      "title": "拨打电话",
+      "type": "call",
+      "info": "添加电话号码链接"
+    },
+    {
+      "level": 1,
+      "title": "拨打电话",
+      "type": "call"
+    }
+  ]
+}

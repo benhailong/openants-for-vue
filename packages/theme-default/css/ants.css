@@ -46,3 +46,55 @@
 .el-table--border {
   border-radius: 4px;
 }
+.image-dialog-imglist {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.image-dialog-imglist-sl {
+  width: 110px;
+  height: 110px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 999;
+  background-color: #000000;
+  opacity: 0.6;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 110px;
+}
+.image-dialog-imglist-hover {
+  width: 110px;
+  height: 30px;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  z-index: 999;
+  background-color: #000000;
+  opacity: 0.6;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 30px;
+  margin-top: 80px;
+  text-align: center;
+}
+.image-dialog-del {
+  position: absolute;
+  margin-left: 100px;
+  z-index: 99;
+  margin-top: -5px;
+}
+.dis {
+  cursor: pointer;
+}
+.dis i.image-dialog-del {
+  display: none;
+}
+.dis:hover i.image-dialog-del {
+  display: block;
+}
+.dis div.image-dialog-imglist-hover {
+  display: none;
+}
+.dis:hover div.image-dialog-imglist-hover {
+  display: block;
+}

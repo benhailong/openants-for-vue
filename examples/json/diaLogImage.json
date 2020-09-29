@@ -1,0 +1,9 @@
+{
+  "data": {
+    "getBox": {
+      "url": "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Images/getBoxAll",
+      "parame": {},
+      "headers": { "uniacid": "2" }
+    }
+  }
+}
