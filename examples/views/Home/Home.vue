@@ -10,6 +10,8 @@
       ><br />
       <span style="font-weight: bold">Git地址：</span
       >https://github.com/benhailong/openants-for-vue<br />
+      <span style="font-weight: bold">文档：</span
+      >http://docs.unpor.com/docs/openants_for_vue/openants_for_vue-1c9f9qf36cnl9<br />
       <span style="font-weight: bold">作者博客：</span
       >https://www.benhailong.com<br />
       <span style="font-weight: bold">作者微信：</span>bhl10001<br />

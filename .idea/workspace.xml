@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、增加图片弹窗选择器，可以将图片分组、图片分页模糊查询&#10;2、二次封装`tinymce`，增加中文字体包，整合弹窗选择器">
+    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、修复node-forge版本过低漏洞的问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/views/Home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/views/Home/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,8 @@
       <workItem from="1603287531827" duration="327000" />
       <workItem from="1603717333776" duration="60000" />
       <workItem from="1603717427629" duration="16740000" />
-      <workItem from="1603781586792" duration="2283000" />
+      <workItem from="1603781586792" duration="2778000" />
+      <workItem from="1603785781992" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitigno">
       <created>1596121537480</created>
@@ -203,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603782552695</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1、修复node-forge版本过低漏洞的问题">
+      <created>1603784318592</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603784318592</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +241,8 @@
     <MESSAGE value="1、修改部分内容" />
     <MESSAGE value="1、111" />
     <MESSAGE value="1、增加图片弹窗选择器，可以将图片分组、图片分页模糊查询&#10;2、二次封装`tinymce`，增加中文字体包，整合弹窗选择器" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、增加图片弹窗选择器，可以将图片分组、图片分页模糊查询&#10;2、二次封装`tinymce`，增加中文字体包，整合弹窗选择器" />
+    <MESSAGE value="1、修复node-forge版本过低漏洞的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、修复node-forge版本过低漏洞的问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1985" y="237" key="#Inspections" timestamp="1596854400705">
@@ -292,13 +301,13 @@
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
     <state x="-2069" y="135" key="SettingsEditor/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596470880864" />
-    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2" timestamp="1603782555942">
+    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2" timestamp="1603784321656">
       <screen x="-1856" y="23" width="1856" height="1057" />
     </state>
     <state x="-1577" y="295" key="Vcs.Push.Dialog.v2/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601344305208" />
     <state x="-1585" y="226" key="Vcs.Push.Dialog.v2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596724675156" />
     <state x="-1585" y="295" key="Vcs.Push.Dialog.v2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597741190890" />
-    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603782555942" />
+    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603784321656" />
     <state x="-2409" y="123" width="2309" height="1217" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596761658038">
       <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
