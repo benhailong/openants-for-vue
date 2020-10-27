@@ -22,5 +22,9 @@ module.exports = {
       .tap(options => {
         return options;
       });
+  },
+  devServer: {
+    host: "0.0.0.0",
+    port: 8080
   }
 };

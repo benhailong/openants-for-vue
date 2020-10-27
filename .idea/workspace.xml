@@ -19,75 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、修改部分内容">
-      <change afterPath="$PROJECT_DIR$/examples/assets/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/assets/logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/assets/scss/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/assets/theme/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/assets/theme/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/assets/theme/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/components/MyAside.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/json/diaLogImage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/json/diaLogUrl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/json/menu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/store/modules/leftMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/views/DiaLog/Index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/views/Home/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/views/Main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/dialog/image/src/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/dialog/url/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/editor/tinymce/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/editor/tinymce/src/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/langs/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/plugins/antimage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/plugins/antimage/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/content/dark/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/content/dark/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/content/default/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/content/default/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/content/document/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/content/document/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/content/writer/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/content/writer/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/content.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/skin.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/content.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/content.mobile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/skin.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/theme-default/tinymce/skins/ui/oxide/skin.mobile.min.css" afterDir="false" />
+    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、111">
+      <change afterPath="$PROJECT_DIR$/examples/views/Editor/MyEditor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/js/do.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/json/diaLogImage.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/json/diaLogImage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/json/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/json/menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/views/DiaLog/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/views/DiaLog/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/views/Home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/views/Home/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/views/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/views/Main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/openants.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.common.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/openants.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/datePicker/src/datePicker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/datePicker/src/datePicker.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/dialog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dialog/image/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/dialog/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dialog/url/src/main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/diy/src/util/image-title-url.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/diy/src/util/image-title-url.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/dialog/image/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dialog/image/src/main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/dialog/url/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dialog/url/src/main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/tinymce/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/tinymce/src/main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/theme-default/css/ants.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme-default/css/ants.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +54,8 @@
       <list>
         <option value="CSS File" />
         <option value="myVue" />
-        <option value="MyVue" />
         <option value="JavaScript File" />
+        <option value="MyVue" />
       </list>
     </option>
   </component>
@@ -118,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -132,17 +87,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/dialog/url" />
-      <recent name="$PROJECT_DIR$/packages/editor/tinymce" />
-      <recent name="$PROJECT_DIR$/packages/dialog/src" />
-      <recent name="$PROJECT_DIR$/packages/dialog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/js" />
       <recent name="$PROJECT_DIR$/examples/json" />
       <recent name="$PROJECT_DIR$/examples/assets" />
       <recent name="$PROJECT_DIR$/examples/store" />
       <recent name="$PROJECT_DIR$/examples/router" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/dialog/url" />
+      <recent name="$PROJECT_DIR$/packages/editor/tinymce" />
+      <recent name="$PROJECT_DIR$/packages/dialog/src" />
       <recent name="$PROJECT_DIR$/packages/dialog" />
     </key>
   </component>
@@ -184,7 +139,20 @@
       <workItem from="1600997053771" duration="3692000" />
       <workItem from="1601003035375" duration="20544000" />
       <workItem from="1601302125759" duration="4498000" />
-      <workItem from="1601342940124" duration="1242000" />
+      <workItem from="1601342940124" duration="12599000" />
+      <workItem from="1601387838480" duration="10023000" />
+      <workItem from="1601608453164" duration="6405000" />
+      <workItem from="1602227581360" duration="3280000" />
+      <workItem from="1602496122206" duration="48000" />
+      <workItem from="1602496378573" duration="446000" />
+      <workItem from="1602513645489" duration="1568000" />
+      <workItem from="1602580300163" duration="6468000" />
+      <workItem from="1603092764201" duration="855000" />
+      <workItem from="1603111873988" duration="13521000" />
+      <workItem from="1603287531827" duration="327000" />
+      <workItem from="1603717333776" duration="60000" />
+      <workItem from="1603717427629" duration="16740000" />
+      <workItem from="1603781586792" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitigno">
       <created>1596121537480</created>
@@ -242,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600850950310</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1、111">
+      <created>1601344301634</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601344301634</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +245,8 @@
     <MESSAGE value="完成会员信息" />
     <MESSAGE value="1、新增弹窗的连接选择器" />
     <MESSAGE value="1、修改部分内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、修改部分内容" />
+    <MESSAGE value="1、111" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、111" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1985" y="237" key="#Inspections" timestamp="1596854400705">
@@ -329,25 +305,32 @@
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
     <state x="-2069" y="135" key="SettingsEditor/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596470880864" />
-    <state x="-1577" y="295" key="Vcs.Push.Dialog.v2" timestamp="1600850953560">
+    <state x="-1577" y="295" key="Vcs.Push.Dialog.v2" timestamp="1601344305208">
       <screen x="-2496" y="23" width="2496" height="1417" />
     </state>
-    <state x="-1577" y="295" key="Vcs.Push.Dialog.v2/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1600850953560" />
+    <state x="-1577" y="295" key="Vcs.Push.Dialog.v2/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601344305208" />
     <state x="-1585" y="226" key="Vcs.Push.Dialog.v2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596724675156" />
     <state x="-1585" y="295" key="Vcs.Push.Dialog.v2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597741190890" />
     <state x="-2409" y="123" width="2309" height="1217" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596761658038">
       <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
     <state x="-2409" y="123" width="2309" height="1217" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596761658038" />
-    <state x="-1964" y="486" width="583" height="735" key="find.popup" timestamp="1601028005302">
-      <screen x="-2496" y="23" width="2496" height="1417" />
+    <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602490638285">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="-1964" y="486" width="583" height="735" key="find.popup/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601028005302" />
+    <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602490638285" />
+    <state x="-1964" y="368" width="583" height="549" key="find.popup" timestamp="1603717674818">
+      <screen x="-2496" y="23" width="2496" height="1057" />
+    </state>
+    <state x="-1964" y="486" width="583" height="735" key="find.popup/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601374204974" />
     <state x="-1974" y="486" width="586" height="490" key="find.popup/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596711301981" />
-    <state x="-2011" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1601033183561">
-      <screen x="-2496" y="23" width="2496" height="1417" />
+    <state x="-1964" y="368" width="583" height="549" key="find.popup/0.23.1680.1027/-2496.23.2496.1057@-2496.23.2496.1057" timestamp="1603717674818" />
+    <state x="-1495" y="265" width="670" height="505" key="search.everywhere.popup" timestamp="1603766099250">
+      <screen x="-1856" y="23" width="1856" height="1057" />
     </state>
     <state x="-2011" y="348" width="670" height="676" key="search.everywhere.popup/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601033183561" />
     <state x="-2021" y="348" width="670" height="676" key="search.everywhere.popup/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596690194921" />
+    <state x="-1495" y="265" width="670" height="505" key="search.everywhere.popup/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603766099250" />
+    <state x="-2011" y="265" width="670" height="505" key="search.everywhere.popup/0.23.1680.1027/-2496.23.2496.1057@-2496.23.2496.1057" timestamp="1603721437213" />
   </component>
 </project>

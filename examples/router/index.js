@@ -22,6 +22,11 @@ const routes = [
         path: "/DiaLog/Index",
         name: "DiaLogIndex",
         component: () => import("../views/DiaLog/Index")
+      },
+      {
+        path: "/Editor/MyEditor",
+        name: "MyEditor",
+        component: () => import("../views/Editor/MyEditor")
       }
     ]
   }

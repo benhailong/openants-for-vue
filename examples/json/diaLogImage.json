@@ -4,6 +4,31 @@
       "url": "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Images/getBoxAll",
       "parame": {},
       "headers": { "uniacid": "2" }
+    },
+    "getImage": {
+      "url": "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Images/getImagesByBoxidAndPage",
+      "parame": {},
+      "headers": { "uniacid": "2" }
+    },
+    "saveImageBox": {
+      "url": "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Images/saveBox",
+      "parame": {},
+      "headers": { "uniacid": "2" }
+    },
+    "delImageBox": {
+      "url": "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Images/delBox",
+      "parame": {},
+      "headers": { "uniacid": "2" }
+    },
+    "updateImage": {
+      "url": "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Memory/uploadfile",
+      "parame": {},
+      "headers": { "uniacid": "2" }
+    },
+    "delImage": {
+      "url": "https://private-dev.heikeit.com/addons/up_vipcard/inc/web/public/index.php?s=/Images/delImagesByid",
+      "parame": {},
+      "headers": { "uniacid": "2" }
     }
   }
 }

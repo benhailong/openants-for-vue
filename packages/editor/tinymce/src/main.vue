@@ -7,12 +7,13 @@
       @onClick="onClick"
     >
     </editor>
-    <button @click="showDialog = true">sss</button>
     <AntImageDialog
+      :atitle="atitle"
       :dialog-visible="showDialog"
       @dialog-cancel="showDialog = false"
-      @antClick="antClick"
-      :ant-data="urlData"
+      @antClick="antClickImg"
+      :ant-data="antData"
+      :rootUrl="baseUrl"
     ></AntImageDialog>
   </div>
 </template>
@@ -46,6 +47,14 @@ export default {
     AntImageDialog
   },
   props: {
+    atitle: {
+      type: String,
+      default: "图片选择器"
+    },
+    antData: {
+      // 弹窗的数据
+      type: Object
+    },
     value: {
       type: String,
       default: ""
@@ -133,6 +142,13 @@ export default {
     clickImage() {
       console.log("弹");
       this.showDialog = true;
+    },
+    // 选择图片之后返回
+    antClickImg(e) {
+      this.returnImgdata = e;
+      var html =
+        '<img src="' + this.baseUrl + e.img.url + '" class="image" /><br />';
+      this.myValue += html;
     }
   },
   watch: {

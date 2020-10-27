@@ -11,6 +11,12 @@
       "icon": "el-icon-files",
       "path": "/DiaLog/Index",
       "name": "DiaLog"
+    },
+    {
+      "lable": "富文本",
+      "icon": "el-icon-s-order",
+      "path": "/Editor/MyEditor",
+      "name": "MyEditor"
     }
   ]
 }

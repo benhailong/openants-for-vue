@@ -276,15 +276,15 @@ export default {
         var res = re.data;
         console.log(res);
         if (res.code == 0) {
-          // _this.$set(_this.rightData, "childList", res.date.list);
+          // _this.$set(_this.rightData, "childList", res.data.list);
           _this.randomString = new Date().toString();
-          _this.rightData.childList = res.date.list;
+          _this.rightData.childList = res.data.list;
           console.log(
             "当前" + this.currentPage + "返回数据：",
             _this.rightData.childList
           );
 
-          _this.total = res.date.total;
+          _this.total = res.data.total;
         }
       });
     },

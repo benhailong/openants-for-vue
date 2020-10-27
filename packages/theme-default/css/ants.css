@@ -48,7 +48,7 @@
 }
 .image-dialog-imglist {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-flow: wrap;
 }
 .image-dialog-imglist-sl {
@@ -62,6 +62,8 @@
   color: #ffffff;
   font-size: 16px;
   line-height: 110px;
+  text-align: center;
+  font-size: 24px;
 }
 .image-dialog-imglist-hover {
   width: 110px;
@@ -85,7 +87,10 @@
 }
 .dis {
   cursor: pointer;
+  margin-left: 3px;
+  margin-right: 3px;
 }
+
 .dis i.image-dialog-del {
   display: none;
 }
@@ -97,4 +102,11 @@
 }
 .dis:hover div.image-dialog-imglist-hover {
   display: block;
+}
+.el-upload-list {
+  position: absolute;
+  margin-left: -100px;
+  z-index: 999;
+  background-color: #ffffff;
+  border-radius: 5px;
 }

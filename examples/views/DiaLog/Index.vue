@@ -37,11 +37,34 @@
     <div class="main-top" style="margin-top: 20px">
       <span style="color: #ff6900;font-weight: bold;">图片选择器</span>
     </div>
+    <div class="dia-inpot">
+      <div class="dia-inpot-title">弹窗标题</div>
+      <el-input
+        v-model="imagetitle"
+        placeholder="请输入"
+        size="mini"
+      ></el-input>
+    </div>
+    <div class="dia-inpot">
+      <div class="dia-inpot-title">数据</div>
+      <vue-json-editor
+        style="width: 600px;"
+        v-model="imageData"
+        :mode="'code'"
+        lang="zh"
+      ></vue-json-editor>
+    </div>
+    <div class="dia-inpot" v-if="returnImgdata">
+      <div class="dia-inpot-title">返回值</div>
+      <pre>{{ returnImgdata }}</pre>
+    </div>
     <AntImageDialog
+      :atitle="imagetitle"
       :dialog-visible="imgShowDialog"
       @dialog-cancel="imgShowDialog = false"
-      @antClick="antClick"
+      @antClick="antClickImg"
       :ant-data="imageData"
+      rootUrl="http://file-wxunpor.heikeit.com/"
     ></AntImageDialog>
     <el-button type="primary" @click="imgShowDialog = true" size="mini"
       >弹出图片选择器</el-button
@@ -63,7 +86,9 @@ export default {
       url: diaLogUrl.data,
       returldata: "",
       imgShowDialog: false, // 图片选择器相关参数
-      imageData: diaLogImage.data
+      imageData: diaLogImage.data,
+      imagetitle: "图片选择器",
+      returnImgdata: ""
     };
   },
   components: {
@@ -77,17 +102,20 @@ export default {
     antClick(e) {
       console.log("弹窗返回值：", e);
       this.returldata = e;
+    },
+    antClickImg(e) {
+      this.returnImgdata = e;
     }
   }
 };
 </script>
 
-<style scoped>
-@import "../../assets/scss/index.css";
-/deep/.jsoneditor {
-  border: 1px solid #dddfe6;
+<style lang="scss">
+@import "../../assets/scss/index.scss";
+.jsoneditor {
+  border: 1px solid #dddfe6 !important;
 }
-/deep/.jsoneditor-menu {
-  display: none;
+.jsoneditor-menu {
+  display: none !important;
 }
 </style>
