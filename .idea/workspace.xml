@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、修复node-forge版本过低漏洞的问题">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/views/Home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/views/Home/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/components/MyAside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/examples/components/MyAside.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,8 @@
       <workItem from="1603717333776" duration="60000" />
       <workItem from="1603717427629" duration="16740000" />
       <workItem from="1603781586792" duration="2778000" />
-      <workItem from="1603785781992" duration="74000" />
+      <workItem from="1603785781992" duration="174000" />
+      <workItem from="1603848872372" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitigno">
       <created>1596121537480</created>
@@ -211,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603784318592</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1、修复node-forge版本过低漏洞的问题">
+      <created>1603785882070</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603785882070</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,13 +310,13 @@
       <screen x="-2509" y="23" width="2509" height="1057" />
     </state>
     <state x="-2069" y="135" key="SettingsEditor/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596470880864" />
-    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2" timestamp="1603784321656">
+    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2" timestamp="1603785886490">
       <screen x="-1856" y="23" width="1856" height="1057" />
     </state>
     <state x="-1577" y="295" key="Vcs.Push.Dialog.v2/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601344305208" />
     <state x="-1585" y="226" key="Vcs.Push.Dialog.v2/-2509.23.2509.1057/0.23.1680.1027@-2509.23.2509.1057" timestamp="1596724675156" />
     <state x="-1585" y="295" key="Vcs.Push.Dialog.v2/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1597741190890" />
-    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603784321656" />
+    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603785886490" />
     <state x="-2409" y="123" width="2309" height="1217" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596761658038">
       <screen x="-2509" y="23" width="2509" height="1417" />
     </state>
@@ -316,11 +325,12 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602490638285" />
-    <state x="-1964" y="368" width="583" height="549" key="find.popup" timestamp="1603717674818">
-      <screen x="-2496" y="23" width="2496" height="1057" />
+    <state x="-1460" y="368" width="556" height="549" key="find.popup" timestamp="1603852716558">
+      <screen x="-1856" y="23" width="1856" height="1057" />
     </state>
     <state x="-1964" y="486" width="583" height="735" key="find.popup/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601374204974" />
     <state x="-1974" y="486" width="586" height="490" key="find.popup/-2509.23.2509.1417/0.23.1680.1027@-2509.23.2509.1417" timestamp="1596711301981" />
+    <state x="-1460" y="368" width="556" height="549" key="find.popup/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603852716558" />
     <state x="-1964" y="368" width="583" height="549" key="find.popup/0.23.1680.1027/-2496.23.2496.1057@-2496.23.2496.1057" timestamp="1603717674818" />
     <state x="-1495" y="265" width="670" height="505" key="search.everywhere.popup" timestamp="1603766099250">
       <screen x="-1856" y="23" width="1856" height="1057" />
