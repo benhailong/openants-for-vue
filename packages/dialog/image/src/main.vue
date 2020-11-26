@@ -141,7 +141,7 @@
                   style="text-align: center"
                   @click="changeImage = index"
                 >
-                  {{ img.name }}
+                  {{ img.name | ellipsis }}
                 </div>
               </div>
             </div>
@@ -216,6 +216,15 @@ export default {
       call: "", // 手机号码
       changeUrl: 0
     };
+  },
+  filters: {
+    ellipsis(value) {
+      if (!value) return "";
+      if (value.length > 8) {
+        return value.slice(0, 8) + "...";
+      }
+      return value;
+    }
   },
   methods: {
     pageGet(val) {

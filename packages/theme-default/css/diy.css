@@ -43,7 +43,8 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 .el-scrollbar__wrap {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
 }
 .el-collapse {
   border-top: 0px;
@@ -400,26 +401,26 @@
   margin-right: 10px;
 }
 .el-dialog {
-  border-radius: 6px;
-  width: 792px;
+  border-radius: 6px !important;
+  width: 792px !important;
   height: 70vh;
   display: flex;
   flex-flow: column;
 }
 .el-dialog__header {
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   border-bottom: 1px solid #f7f7f7;
   text-align: left;
 }
 .el-dialog__headerbtn {
-  top: 14px;
+  top: 14px !important;
 }
 .el-dialog__title {
-  font-size: 14px;
-  color: #333;
+  font-size: 14px !important;
+  color: #333 !important;
 }
 .el-dialog__body {
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   flex: 1;
 }
 .el-dialog__footer {
