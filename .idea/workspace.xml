@@ -19,17 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、修复jenkins自动化部署编译报错的问题">
+    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、修复组件中部分css部署的时候出现权限不足被替换的问题">
+      <change afterPath="$PROJECT_DIR$/Beifen.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.common.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/dialog/image/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dialog/image/src/main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/theme-default/css/diy.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/theme-default/css/diy.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/packages/js" />
       <recent name="$PROJECT_DIR$/examples/json" />
       <recent name="$PROJECT_DIR$/examples/assets" />
       <recent name="$PROJECT_DIR$/examples/store" />
-      <recent name="$PROJECT_DIR$/examples/router" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/packages/dialog/url" />
@@ -147,7 +141,14 @@
       <workItem from="1605800425030" duration="1876000" />
       <workItem from="1605873921877" duration="149000" />
       <workItem from="1605961400100" duration="198000" />
-      <workItem from="1606389383270" duration="1149000" />
+      <workItem from="1606389383270" duration="1907000" />
+      <workItem from="1606494711805" duration="21000" />
+      <workItem from="1609901934044" duration="709000" />
+      <workItem from="1609902999081" duration="868000" />
+      <workItem from="1609913914690" duration="1101000" />
+      <workItem from="1614612397335" duration="475000" />
+      <workItem from="1614612973866" duration="609000" />
+      <workItem from="1622909023705" duration="1986000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitigno">
       <created>1596121537480</created>
@@ -240,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603852792398</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1、修复组件中部分css部署的时候出现权限不足被替换的问题">
+      <created>1606391092103</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606391092103</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +280,8 @@
     <MESSAGE value="1、增加图片弹窗选择器，可以将图片分组、图片分页模糊查询&#10;2、二次封装`tinymce`，增加中文字体包，整合弹窗选择器" />
     <MESSAGE value="1、修复node-forge版本过低漏洞的问题" />
     <MESSAGE value="1、修复jenkins自动化部署编译报错的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、修复jenkins自动化部署编译报错的问题" />
+    <MESSAGE value="1、修复组件中部分css部署的时候出现权限不足被替换的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、修复组件中部分css部署的时候出现权限不足被替换的问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1862" y="475" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601021939159">
@@ -283,11 +292,14 @@
       <screen x="-2496" y="23" width="2496" height="1417" />
     </state>
     <state x="-1509" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601018922951" />
-    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2" timestamp="1603852795174">
-      <screen x="-1856" y="23" width="1856" height="1057" />
+    <state x="-1579" y="228" key="Vcs.Push.Dialog.v2" timestamp="1606391532223">
+      <screen x="-2498" y="25" width="2498" height="1055" />
     </state>
     <state x="-1577" y="295" key="Vcs.Push.Dialog.v2/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601344305208" />
     <state x="-1173" y="226" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603852795174" />
+    <state x="-1579" y="228" key="Vcs.Push.Dialog.v2/0.25.1680.1025/-2498.25.2498.1055@-2498.25.2498.1055" timestamp="1606391532223" />
+    <state x="-1580" y="228" key="Vcs.Push.Dialog.v2/0.25.1680.1025/-2500.25.2500.1055@-2500.25.2500.1055" timestamp="1606391182931" />
+    <state x="-1581" y="228" key="Vcs.Push.Dialog.v2/0.25.1680.1025/-2502.25.2502.1055@-2502.25.2502.1055" timestamp="1606391096144" />
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602490638285">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

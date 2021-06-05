@@ -190,6 +190,11 @@ export default {
     rootUrl: {
       // 图片的连接
       type: String
+    },
+    reqest: {
+      // 额外参数，用于点击确认时候返回
+      type: String,
+      default: ""
     }
   },
   data() {
@@ -428,7 +433,8 @@ export default {
       // 如果是电话
       this.$emit("antClick", {
         img: this.imageData[this.changeImage],
-        root: this.rootUrl
+        root: this.rootUrl,
+        reqest: this.reqest
       });
       this.$emit("dialog-cancel");
     }
