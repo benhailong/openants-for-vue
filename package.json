@@ -1,6 +1,6 @@
 {
   "name": "openants",
-  "version": "0.2.4",
+  "version": "0.2.7",
   "private": false,
   "author": "openants",
   "license": "MIT",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@tinymce/tinymce-vue": "^3.2.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
     "tinymce": "^5.4.2",

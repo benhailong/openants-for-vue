@@ -19,11 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、修复组件中部分css部署的时候出现权限不足被替换的问题">
-      <change afterPath="$PROJECT_DIR$/Beifen.md" afterDir="false" />
+    <list default="true" id="505c26bb-c0e5-40d8-908a-2935f619db62" name="Default Changelist" comment="1、优化弹出图片选择框组件，可以添加额外参数解决同一个页面多个图片选择框的问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beifen.md" beforeDir="false" afterPath="$PROJECT_DIR$/Beifen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.common.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.common.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.umd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/openants.umd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openants.umd.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/dialog/image/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dialog/image/src/main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +71,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -148,7 +156,8 @@
       <workItem from="1609913914690" duration="1101000" />
       <workItem from="1614612397335" duration="475000" />
       <workItem from="1614612973866" duration="609000" />
-      <workItem from="1622909023705" duration="1986000" />
+      <workItem from="1622909023705" duration="3518000" />
+      <workItem from="1622913029599" duration="564000" />
     </task>
     <task id="LOCAL-00001" summary="修改gitigno">
       <created>1596121537480</created>
@@ -248,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606391092103</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1、优化弹出图片选择框组件，可以添加额外参数解决同一个页面多个图片选择框的问题">
+      <created>1622911413507</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622911413507</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,42 +297,7 @@
     <MESSAGE value="1、修复node-forge版本过低漏洞的问题" />
     <MESSAGE value="1、修复jenkins自动化部署编译报错的问题" />
     <MESSAGE value="1、修复组件中部分css部署的时候出现权限不足被替换的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、修复组件中部分css部署的时候出现权限不足被替换的问题" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1862" y="475" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601021939159">
-      <screen x="-2496" y="23" width="2496" height="1417" />
-    </state>
-    <state x="-1862" y="475" key="#com.intellij.fileTypes.FileTypeChooser/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601021939159" />
-    <state x="-1509" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601018922951">
-      <screen x="-2496" y="23" width="2496" height="1417" />
-    </state>
-    <state x="-1509" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601018922951" />
-    <state x="-1579" y="228" key="Vcs.Push.Dialog.v2" timestamp="1606391532223">
-      <screen x="-2498" y="25" width="2498" height="1055" />
-    </state>
-    <state x="-1577" y="295" key="Vcs.Push.Dialog.v2/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601344305208" />
-    <state x="-1173" y="226" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603852795174" />
-    <state x="-1579" y="228" key="Vcs.Push.Dialog.v2/0.25.1680.1025/-2498.25.2498.1055@-2498.25.2498.1055" timestamp="1606391532223" />
-    <state x="-1580" y="228" key="Vcs.Push.Dialog.v2/0.25.1680.1025/-2500.25.2500.1055@-2500.25.2500.1055" timestamp="1606391182931" />
-    <state x="-1581" y="228" key="Vcs.Push.Dialog.v2/0.25.1680.1025/-2502.25.2502.1055@-2502.25.2502.1055" timestamp="1606391096144" />
-    <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602490638285">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602490638285" />
-    <state x="-1670" y="305" width="750" height="548" key="find.popup" timestamp="1606389413948">
-      <screen x="-2500" y="25" width="2500" height="1055" />
-    </state>
-    <state x="-1964" y="486" width="583" height="735" key="find.popup/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601374204974" />
-    <state x="-1460" y="368" width="556" height="549" key="find.popup/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603852716558" />
-    <state x="-1964" y="368" width="583" height="549" key="find.popup/0.23.1680.1027/-2496.23.2496.1057@-2496.23.2496.1057" timestamp="1603717674818" />
-    <state x="-811" y="288" width="749" height="548" key="find.popup/0.25.1680.1025/-2498.25.2498.1055@-2498.25.2498.1055" timestamp="1605798392249" />
-    <state x="-1670" y="305" width="750" height="548" key="find.popup/0.25.1680.1025/-2500.25.2500.1055@-2500.25.2500.1055" timestamp="1606389413948" />
-    <state x="-1495" y="265" width="670" height="505" key="search.everywhere.popup" timestamp="1603766099250">
-      <screen x="-1856" y="23" width="1856" height="1057" />
-    </state>
-    <state x="-2011" y="348" width="670" height="676" key="search.everywhere.popup/-2496.23.2496.1417/0.23.1680.1027@-2496.23.2496.1417" timestamp="1601033183561" />
-    <state x="-1495" y="265" width="670" height="505" key="search.everywhere.popup/0.23.1680.1027/-1856.23.1856.1057@-1856.23.1856.1057" timestamp="1603766099250" />
-    <state x="-2011" y="265" width="670" height="505" key="search.everywhere.popup/0.23.1680.1027/-2496.23.2496.1057@-2496.23.2496.1057" timestamp="1603721437213" />
+    <MESSAGE value="1、优化弹出图片选择框组件，可以添加额外参数解决同一个页面多个图片选择框的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、优化弹出图片选择框组件，可以添加额外参数解决同一个页面多个图片选择框的问题" />
   </component>
 </project>
